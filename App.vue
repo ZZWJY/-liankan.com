@@ -1,0 +1,64 @@
+<script>
+	export default {
+		onLaunch: function() {
+			console.log('App Launch')
+		},
+		onShow: function() {
+			console.log('App Show')
+		},
+		onHide: function() {
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style  lang='scss'>
+	@import '/static/font/font.css';
+	html, body, div, span, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,a,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video {
+	    margin:0;
+	    padding:0;
+	    border:0;
+	    outline: 0;
+	    box-sizing: border-box;
+	    position: relative;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: right
+	}
+	input,button,textarea,select{
+	    outline: 0;
+	    box-sizing: border-box;
+	}
+	h1,h2,h3,h4,h5,h6,em,i {
+	    font-weight: 100;
+	    font-style: normal;
+	}
+	ul,ol,li {
+	    list-style-type: none;
+	}
+	a {
+	    text-decoration: none;
+	}
+	button:active{
+	    transform: translateY(2px);
+	}
+	#app{
+	//   min-width: 1300px;
+	  // min-height: 1350px;
+	}
+	/*每个页面公共css */
+</style>

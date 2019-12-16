@@ -1,0 +1,176 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/home/home",
+			"style" : {
+				"navigationBarTitleText":"链看点"
+				 // "enablePullDownRefresh": true
+				// "titleNView": false,
+				// "scrollIndicator": "none"
+			}
+		},
+		{
+		    "path" : "pages/VDetail/VDetail",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}  
+			}
+		},
+		{
+		    "path" : "pages/information/information",
+			"style" : {
+				"navigationBarTitleText": "文章详情",
+				"app-plus": {  
+					
+					"titleNView": false //禁用原生导航栏  
+				}  
+		   }
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/inviteFriend/inviteFriend",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/million/million",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏 
+					 "scrollIndicator" : false
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/Aspect/Aspect",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/Rank/Rank",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/signShow/signShow",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}  
+			}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				} 
+			}
+        }
+        ,{
+			//手把手教学界面
+            "path" : "pages/personallyTeach/personallyTeach",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				} 
+			}
+        }
+        ,{
+			//怎么看赚点
+            "path" : "pages/makeAspect/makeAspect",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}
+			}
+        }
+        ,{
+			//暴富秘籍
+            "path" : "pages/upstart/upstart",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/questionnaire/questionnaire",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}
+			}
+        }
+        ,{
+			//反馈与帮助
+            "path" : "pages/feedbackHelp/feedbackHelp",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}
+			}
+        }
+        ,{
+			//问题详情
+            "path" : "pages/feedDetail/feedDetail",
+            "style" : {
+				"app-plus": {
+					
+					"titleNView": false, //禁用原生导航栏  
+					"scrollIndicator" : false
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"style" : {
+			// "navigationBarTitleText": "文章详情",
+			"app-plus": {  
+				
+				"titleNView": false, //禁用原生导航栏  
+				"scrollIndicator": "none"
+			}  
+		}
+	}
+}

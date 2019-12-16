@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/inviteFriend/inviteFriend",
+    "pages/million/million",
+    "pages/Aspect/Aspect",
+    "pages/Rank/Rank",
+    "pages/signShow/signShow",
+    "pages/share/share",
+    "pages/personallyTeach/personallyTeach",
+    "pages/makeAspect/makeAspect",
+    "pages/upstart/upstart",
+    "pages/questionnaire/questionnaire",
+    "pages/feedbackHelp/feedbackHelp",
+    "pages/feedDetail/feedDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "style": {
+      "app-plus": {
+        "titleNView": false,
+        "scrollIndicator": "none"
+      }
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

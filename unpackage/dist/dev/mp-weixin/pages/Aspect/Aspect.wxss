@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.aspect.data-v-4fcc5110 {
+  padding: 38rpx 24rpx 0 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.aspect .aspect-value .aspect-title.data-v-4fcc5110 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.aspect .aspect-value .aspect-title image.data-v-4fcc5110 {
+      width: 26rpx;
+      height: 16rpx;
+}
+.aspect .aspect-value .aspect-title text.data-v-4fcc5110 {
+      font-size: 36rpx;
+      color: #2A2A2A;
+      font-weight: bold;
+      margin-left: 20rpx;
+}
+.aspect .aspect-value > view + view.data-v-4fcc5110 {
+    width: 702rpx;
+    background: -o-linear-gradient(207deg, #fbefe6 0%, #fff7f0 100%);
+    background: linear-gradient(243deg, #fbefe6 0%, #fff7f0 100%);
+    border-radius: 10rpx;
+    margin-top: 44rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #92583A;
+    position: relative;
+    font-size: 30rpx;
+    padding: 42rpx 30rpx 24rpx 30rpx;
+}
+.aspect .aspect-value > view + view text.data-v-4fcc5110 {
+      font-weight: bold;
+}
+.aspect .aspect-value > view + view > view.data-v-4fcc5110 {
+      width: 134rpx;
+      height: 50rpx;
+      background: #f6e0c6;
+      border-radius: 10rpx;
+      position: absolute;
+      top: -30rpx;
+      left: 30rpx;
+      text-align: center;
+      line-height: 50rpx;
+      color: #C08B6A;
+      font-size: 28rpx;
+      font-weight: bold;
+}
+.aspect .aspect-data.data-v-4fcc5110 {
+    margin-top: 30rpx;
+}
+.aspect .aspect-data .data-Title.data-v-4fcc5110 {
+      color: #2A2A2A;
+      font-size: 30rpx;
+      font-weight: bold;
+}
+.aspect .aspect-data .data-content.data-v-4fcc5110 {
+      margin-top: 20rpx;
+      width: 702rpx;
+      height: 534rpx;
+      background: #f9f9f9;
+      border-radius: 20rpx;
+      padding: 22rpx 10rpx 16rpx 22rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+.aspect .aspect-data .data-content > view:nth-child(1) .verticar.data-v-4fcc5110 {
+        color: #B8B8B8;
+        font-size: 22rpx;
+}
+.aspect .aspect-data .data-content > view:nth-child(1) > view.data-v-4fcc5110:nth-child(2) {
+        margin-top: 6rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+}
+.aspect .aspect-data .data-content > view:nth-child(1) > view:nth-child(2) > view.data-v-4fcc5110:nth-child(2) {
+          width: 7%;
+          color: #B8B8B8;
+          font-size: 22rpx;
+          text-align: center;
+}
+.aspect .aspect-data .data-content .aspect-data-info.data-v-4fcc5110 {
+        margin-top: 20rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        position: relative;
+}
+.aspect .aspect-data .data-content .aspect-data-info .line-Top.data-v-4fcc5110 {
+          width: 630rpx;
+          height: 22rpx;
+          background: rgba(216, 216, 216, 0.57);
+          border-radius: 11rpx;
+}
+.aspect .aspect-data .data-content .aspect-data-info .data-info.data-v-4fcc5110 {
+          position: absolute;
+          top: 11rpx;
+          width: 588rpx;
+          height: 120rpx;
+          background: #f03644;
+          border-radius: 0px 0px 20rpx 20rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+}
+.aspect .aspect-data .data-content .aspect-data-info .data-info > view.data-v-4fcc5110 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            color: #fff;
+            font-size: 28rpx;
+}
+.aspect .aspect-data .data-content .aspect-data-info .data-info > view > view.data-v-4fcc5110:nth-child(1) {
+              font-size: 38rpx;
+              font-weight: bold;
+}
+.aspect .aspect-data .data-content .aspect-data-info .data-info > view > view:nth-child(1) text.data-v-4fcc5110 {
+                font-size: 28rpx;
+                font-weight: 400;
+}
+.aspect .aspect-data .data-content .aspect-data-info .data-info > view + view.data-v-4fcc5110 {
+            margin-left: 166rpx;
+}
+.aspect .aspect-Why.data-v-4fcc5110 {
+    margin-top: 44rpx;
+}
+.aspect .aspect-Why .aspect-title.data-v-4fcc5110 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.aspect .aspect-Why .aspect-title image.data-v-4fcc5110 {
+        width: 26rpx;
+        height: 16rpx;
+}
+.aspect .aspect-Why .aspect-title text.data-v-4fcc5110 {
+        font-size: 36rpx;
+        color: #2A2A2A;
+        font-weight: bold;
+        margin-left: 20rpx;
+}
+.aspect .aspect-Why .why-content.data-v-4fcc5110 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+}
+.aspect .aspect-Why .why-content .why-item.data-v-4fcc5110 {
+        width: 658rpx;
+        margin-top: 22rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 24rpx 22rpx 20rpx 64rpx;
+        position: relative;
+        color: #862E2E;
+        font-size: 30rpx;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+.aspect .aspect-Why .why-content .why-item image.data-v-4fcc5110 {
+          position: absolute;
+          top: 12rpx;
+          left: -46rpx;
+}
+.aspect .aspect-Why .why-content .why-item.data-v-4fcc5110:nth-child(1) {
+        height: 212rpx;
+        background: url(../../static/img/value_content_tall_bg@3x.030612eb.png) no-repeat;
+        background-size: 100% 100%;
+}
+.aspect .aspect-Why .why-content .why-item:nth-child(1) image.data-v-4fcc5110 {
+          width: 78rpx;
+          height: 170rpx;
+}
+.aspect .aspect-Why .why-content .why-item.data-v-4fcc5110:nth-child(2) {
+        height: 158rpx;
+        background: url(../../static/img/value_content_bg@3x.dca3e50d.png) no-repeat;
+        background-size: 100% 100%;
+}
+.aspect .aspect-Why .why-content .why-item:nth-child(2) image.data-v-4fcc5110 {
+          width: 78rpx;
+          height: 128rpx;
+}
+.aspect .aspect-Why .why-content .why-item.data-v-4fcc5110:nth-child(3) {
+        height: 176rpx;
+        background: url(../../static/img/value_content_three_bg.581bb75f.png) no-repeat;
+        background-size: 100% 100%;
+}
+.aspect .aspect-Why .why-content .why-item:nth-child(3) image.data-v-4fcc5110 {
+          width: 78rpx;
+          height: 146rpx;
+}
+.aspect .aspect-what.data-v-4fcc5110 {
+    margin-top: 54rpx;
+}
+.aspect .aspect-what .aspect-title.data-v-4fcc5110 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.aspect .aspect-what .aspect-title image.data-v-4fcc5110 {
+        width: 26rpx;
+        height: 16rpx;
+}
+.aspect .aspect-what .aspect-title text.data-v-4fcc5110 {
+        font-size: 36rpx;
+        color: #2A2A2A;
+        font-weight: bold;
+        margin-left: 20rpx;
+}
+.aspect .aspect-what .what-content.data-v-4fcc5110 {
+      margin-top: 26rpx;
+      padding: 30rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 704rpx;
+      height: 522rpx;
+      background: #f9f9f9;
+      border-radius: 20rpx;
+}
+.aspect .aspect-what .what-content .what-item.data-v-4fcc5110 {
+        padding: 15rpx 10rpx 15rpx 26rpx;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 636rpx;
+        color: #3E4970;
+        font-size: 30rpx;
+        height: 114rpx;
+        background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(rgba(93, 118, 182, 0.09)));
+        background: -o-linear-gradient(right, rgba(255, 255, 255, 0) 0%, rgba(93, 118, 182, 0.09) 100%);
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(93, 118, 182, 0.09) 100%);
+}
+.aspect .aspect-what .what-content .what-item.data-v-4fcc5110:nth-child(1) {
+        height: 68rpx !important;
+}
+.aspect .aspect-what .what-content .what-item + .what-item.data-v-4fcc5110 {
+        margin-top: 12rpx;
+}
+.aspect .aspect-Bq.data-v-4fcc5110 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100rpx;
+    color: #E7E8E9;
+    font-size: 30rpx;
+}
+

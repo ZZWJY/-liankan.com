@@ -1,0 +1,17 @@
+$mainColor: #3F82FD;
+$mainColorActive: rgba($mainColor, 0.7);
+$mainBd: #f7f7f7;
+$hoverBd: #eeeeee;
+$mainBlack1: #848484;   //字体灰色
+$mainBlack2: #666666;
+$mainBlack3: #999999;
+$lineColor: #ebedf0;
+$shadow: 0 0 20rpx -5rpx rgba(0, 0, 0, 0.1);
+
+@mixin line($line: 1) {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: $line;
+	overflow: hidden;
+	word-break: break-all;
+}
